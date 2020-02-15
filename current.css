@@ -1,0 +1,504 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+@import 'css/bootstrap.min.css';
+@import 'css/owl.carousel.min.css';
+@import 'css/animate.css';
+@import 'css/magnific-popup.css';
+@import 'css/font-awesome.current.css';
+
+/* --------------------------
+:: 1.0 Base CSS Start
+-------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    left: 0;
+    color: #black;
+}
+/* global */
+.container{
+    position: relative;
+    line-height: 10px;
+    padding: 0;
+    margin: 0;
+}
+ ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+header{
+    height: 40px;
+    margin: 0px;
+    background: #000;
+    color: #fff;
+    border-bottom: 1px solid red;
+    padding: 10px;
+}
+/*header all link a*/
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+/* header list */
+header li{
+    margin-top: 20px;
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px ;
+}
+/* header design heading */
+header #design{
+    float: left;
+    margin-left: 20px;
+
+}
+/*header design h3*/
+header #design h3{
+   margin: 0;
+}
+/*header nav is float right */
+header nav{
+    float: right;
+}
+
+/* header h3 class me-na style */
+.me-na{
+    color: red;
+}
+/* header hover on a link */
+header a:hover{
+    color: #ccccb345;
+    font-weight: bold;
+}
+/* header li style on a */
+header .current a{
+    color: red;
+}
+
+
+.contain{
+    width: 86.5em;
+    height: 300px;
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(red,white)
+}
+.contain h1{
+    padding: 0 13em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.contain p{
+    padding-bottom: 0px;
+}
+/* newsletter style contaniner */
+.newsletter{
+    background: #000000;
+    border-bottom: 2px solid red;
+    min-height: 100px;
+    min-width: 100px;
+    position: relative;
+    padding-top: 0px;
+    transform: translate(-50% -50%);
+}
+/* newsletter on h2 */
+.container-1 h2{
+    float: left;
+    margin: 20px;
+    color: red;
+    
+}
+ h2:first-letter{
+    font-size: 20px;
+    border-block-end-style: groove;
+}
+/* newsletter on form */
+.newsletter .form{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.form span{
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    border-block-end-style: double;
+}
+.form input[type="email"]{
+    text-align: center;
+    width: 320px;
+    border-radius: 50px 0 0 50px;
+    padding: 7px;
+    font-style: italic;
+}
+.form button{
+    border-radius: 0px 20px 20px 0;
+    font-style: italic;
+    padding: 7px;
+    background: red;
+}
+.form button:hover{
+    background: #777;
+    color: red;
+}
+.b-t-n-2{
+    background: cyan;
+    border-radius: 30px;
+
+}
+
+/* image contianer-2 that perform magical event */
+
+#container-2{
+        min-height: 600px;
+         width: 1280px;
+         margin: 40px auto 0;
+         background: red;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+
+}
+#container-2 div{
+    position: relative;
+    margin: 10px;
+    min-height: 300px;
+    width: 400px;
+    background: yellow;
+    box-sizing: border-box;
+    display: inline-block;
+}
+#container-2 .imagebox{
+    position: relative;
+    overflow: hidden;
+}
+#container-2 .imagebox img{
+    max-width: 118%;
+    transition: transform 2s; 
+    transform: scaley(1);
+
+}
+img{
+    height: 52.9vh;
+    width: 53.9vh;
+}
+#container-2 .imagebox:hover img{
+    transform: scale(1.2);
+
+}
+#container-2 .imagebox .detail{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    bottom: 10px;
+    background: #000;
+    margin-left: 30px;
+    width: 80%;
+    opacity: .8;
+    color: #fff;
+    text-align: center;
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+#container-2 .imagebox:hover .detail{
+    transition: transform 2s;
+    transform: scalex(1);
+}
+#container-2 .imagebox .detail h2{
+    margin-top: 30px;
+    color: blue;
+}
+.section-2 .about{
+    position: relative;
+    width: 60rem;
+    height: 20rem;
+}
+.about{
+    position: relative;
+    float: left;
+    width: 900px;
+    padding: 30px;
+
+
+}
+.about h1{
+    text-align: center;
+}
+.con-aside {
+    width: 100px;
+    height: 30rem
+}
+.aside{
+    width:47rem;
+    margin-left:80vh;
+    
+}
+.aside h4{
+    text-align: center;
+}
+
+.vidoes-con{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    background: red;
+
+}
+.vidoes-con div{
+    text-align: center;
+}
+/* form-contianer that showcase the vision club */
+.form-container{
+    box-sizing: border-box;
+    border: 1px solid #777;
+}
+.image-cont{
+    background: #fff;
+    height: 200px;
+}
+.image-cont .img-avatar{
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    border-radius: 80px;
+    transform: translate(+84vh,5vh);
+}
+.join{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
+fieldset{
+    background: black;
+    height: 250px;
+    width: 85vh;
+    margin-left: 50vh;
+    border: 2px solid red;
+}
+legend{
+    background: transparent; 
+    color: #fff
+}
+.first-na, span{
+    margin-left: 5vh;
+    color: #fff;
+}
+.join .form-club{
+    width: 100px;
+}
+.form-club input[type="text"]{
+    width: 50vh;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 12vh;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+}
+.form-club input[type="number"]{
+    width: 50vh;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 12vh;
+    border-radius: 0px 10px 10px 0px;
+}
+.form-club input[type="email"]{
+    width: 50vh;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 12vh;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+}
+.button-sub{
+    margin: 5px;
+    padding: 5px;
+    margin-left: 30vh;
+    width: 39vh;
+    border-radius: 50px;
+    color: red;
+
+}
+/* table my team our future */
+.myteam{
+    background: #000000;
+    border: 2px solid red;
+}
+/* animate****img of the sucessful people */
+.animate{
+    margin: 5px;
+    position: relative;
+    background: red;
+}
+.animate .img-animate{
+    position: relative;
+}
+.animate .img-animate .img-animate-1{
+    border: 3px solid red;
+}
+
+
+/* footer is dospaly here */
+footer{
+    height: 20em;
+    background: #000000;
+    color: #fff;
+    text-align:center;
+    padding: 20px;
+}
+/* media quries goes here on display */
+@media screen and (max-width: 700px){
+    .contain h1{
+        width: 14em;
+        padding: 0 4em;
+        color: aqua;
+    }
+    .contain p{
+        font-size: 13px;
+        margin: 0 5px;
+        width: 50em;
+        color: #fff;
+    }
+    .contain{
+        max-width: 39.4em;
+    }
+    .form{
+        width: 100px;
+    }
+    h3{
+        color:yellow;
+        float: left;
+        text-align: center;
+    }
+    .newsletter{
+        width: 42.1em;
+        height: 200px;
+    }
+    .newsletter h2{
+        float: left;
+        padding: 0 8em;
+        width: 50em;
+        color: greenyellow;
+    }
+    .form{
+        width: 68vh;
+        float: none;
+    }
+    .newsletter input[type="email"]{
+        right: 11px;
+        left: 0px;
+        float: none;
+    }
+    .form button{
+        width: 200px;
+        padding: 2px 12em;
+        margin-left: 5vh;
+        align-items: center
+    }
+    .imagebox{
+        width: 40em;
+    }
+     img{
+        width: 675.3px;
+        padding:  0px;
+    }
+    footer{
+        max-width: 42.6rem;
+    }
+    #container-2{
+        background-color: none;
+        width: 69vh;
+        
+    }
+    #container-2 .imagebox{
+        width: 44rem
+    }
+
+
+}
+/* media qury go here  */
+@media screen and (max-width: 520px){
+    .contain h1{
+        width: 14em;
+        padding:0 1em;
+        padding-left: 10px;
+        color: yellow;
+        text-align: center;
+    }
+    .contain p{
+        font-size: 13px;
+        width: 50em;
+        min-height: 30px;
+        color: #fff;
+    }
+    .contain{
+        max-width: 28.4em;
+    }
+    h3{
+        font-size: 50px;
+        color:yellow;
+        text-align: center;
+    }
+    .newsletter{
+        width: 30.9em;
+        height: 200px;
+    }
+    .newsletter h2{
+        float: left;
+        padding: 0 3.5em;
+        width: 50em;
+        color: greenyellow;
+    }
+    .form{
+        width: 58vh;
+        float: none;
+        border-radius: none;
+    }
+    .form input[type="email"]{
+        float: none;
+        width: 40.4vh;
+        border-radius: none;
+    }
+    .form button{
+        width: 200px;
+        padding: 2px 12em;
+        margin-left: 5vh;
+        align-items: center
+    }
+    .imagebox{
+        width: 40em;
+    }
+     img{
+        width: 675.3px;
+        padding:  0px;
+    }
+    footer{
+        max-width: 40rem;
+    }
+    #container-2{
+        background-color: none;
+        width: 59vh;
+        
+    }
+    #container-2 .imagebox{
+        width: 44rem
+    }
+
+
+}
